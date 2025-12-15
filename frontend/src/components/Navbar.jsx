@@ -56,7 +56,7 @@ const Navbar = (props) => {
   };
 
   return (
-    <div className="flex h-screen bg-gray-50 ">
+    <div className="flex h-fit bg-gray-50 ">
       {/* Left Side: Sidebar */}
       <div>
         {
@@ -144,7 +144,7 @@ const Navbar = (props) => {
       </div>
 
       {/* Right Side: Main Content */}
-      <div className="flex-1 p-6 bg-gray-100 overflow-y-auto">
+      <div className="h-fit flex-1 p-6 bg-gray-100 overflow-y-auto">
         <Routes>
           <Route path="/" element={<Profile />} />
           <Route path="/profile" element={<Profile />} />
